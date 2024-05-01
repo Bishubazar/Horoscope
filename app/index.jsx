@@ -8,13 +8,13 @@ import CustomButton from "../components/CustomButton";
 
 export default function App() {
   return (
-    <SafeAreaView className="bg-primary h-full">
+    <SafeAreaView className="h-full bg-primary">
       <ScrollView
         contentContainerStyle={{
           height: "100%",
         }}
       >
-        <View className="w-full justify-center items-center h-full px-4">
+        <View className="items-center justify-center w-full h-full px-4">
           <Image
             source={images.logo}
             className="w-[130px] h-[84px]"
@@ -26,12 +26,12 @@ export default function App() {
             resizeMode="contain"
           />
 
-          <View className="relative mt-5 w-full">
-            <Text className="text-3xl text-white font-bold text-center">
-              Lorem ipsum dolor adasd asdasd
+          <View className="relative w-full mt-5">
+            <Text className="text-3xl font-bold text-center text-white">
+              Hello World
               <Text className="text-secondary-200"> Logo</Text>
             </Text>
-            <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
+            <Text className="text-sm text-center text-gray-100 font-pregular mt-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque
               quasi temporibus possimus
             </Text>
