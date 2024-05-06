@@ -22,9 +22,7 @@ export default function StepHeader({ step, title, children }) {
           resizeMode="contain"
           className="w-[150px] h-[50px]"
         /> */}
-        <Text className="text-sm text-secondary font-pregular">
-          Алхам {step} / 4
-        </Text>
+        <Text className=" text-secondary font-pregular">Алхам {step} / 4</Text>
 
         <Text className="text-[40px] text-light font-psemibold">{title}</Text>
       </View>

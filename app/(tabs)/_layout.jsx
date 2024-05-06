@@ -15,8 +15,8 @@ const TabIcon = ({ icon, color, name, focused }) => {
       />
       <Text
         className={mergeNames(
-          focused ? "font-psemibold" : "font-pregular",
-          "text-xs"
+          focused ? "font-psemibold" : "font-pregular"
+          // "text-xs"
         )}
         style={{ color: color }}
       >

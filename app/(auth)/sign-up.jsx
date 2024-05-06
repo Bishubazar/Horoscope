@@ -49,7 +49,7 @@ const SignUp = () => {
             className="w-[150px] h-[50px]"
           />
 
-          <Text className="mt-10 text-2xl font-semibold text-white font-psemibold">
+          <Text className="mt-10 font-semibold text-white font-psemibold">
             Log in to Aora
           </Text>
 
@@ -83,20 +83,14 @@ const SignUp = () => {
           />
 
           <View className="flex flex-row justify-center gap-2 pt-5">
-            <Text className="text-lg text-gray-100 font-pregular">
+            <Text className="text-gray-100 font-pregular">
               Have an account already?
             </Text>
-            <Link
-              href="/sign-in"
-              className="text-lg font-psemibold text-secondary"
-            >
+            <Link href="/sign-in" className=" font-psemibold text-secondary">
               Sign In
             </Link>
           </View>
-          <Link
-            href="/sign-info"
-            className="text-lg font-psemibold text-secondary"
-          >
+          <Link href="/sign-info" className=" font-psemibold text-secondary">
             Next
           </Link>
         </View>

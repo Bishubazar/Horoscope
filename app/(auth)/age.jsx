@@ -93,7 +93,7 @@ const Gender = (props) => {
                 otherStyles="mt-7"
                 keyboardType="email-address"
               /> */}
-          <Text className="mt-10 text-xl font-bold text-center text-white">
+          <Text className="mt-10 font-bold text-center text-white">
             {`${date.getFullYear()} / ${
               date.getMonth() + 1
             } / ${date.getDate()}`}

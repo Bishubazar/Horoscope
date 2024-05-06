@@ -50,7 +50,7 @@ const SignIn = () => {
             className="w-[150px] h-[50px]"
           />
 
-          <Text className="mt-10 text-2xl font-semibold text-white font-psemibold">
+          <Text className="mt-10 font-semibold text-white font-psemibold">
             Log in to Aora
           </Text>
 
@@ -78,18 +78,15 @@ const SignIn = () => {
           />
 
           <View className="flex flex-row justify-center gap-2 pt-5">
-            <Text className="text-lg text-gray-100 font-pregular">
+            <Text className="text-gray-100 font-pregular">
               Don't have an account?
             </Text>
-            <Link
-              href="/sign-up"
-              className="text-lg font-psemibold text-secondary"
-            >
+            <Link href="/sign-up" className=" font-psemibold text-secondary">
               Sign Up
             </Link>
           </View>
 
-          <Link href="/home" className="text-lg font-psemibold text-secondary">
+          <Link href="/home" className=" font-psemibold text-secondary">
             Home
           </Link>
         </View>

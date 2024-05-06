@@ -85,11 +85,11 @@ const SignIn = (props) => {
             resizeMode="contain"
             className="w-[115px] h-[34px]"
           />
-          <Text className="mt-10 text-2xl font-semibold text-white font-psemibold">
+          <Text className="mt-10 font-semibold text-white font-psemibold">
             Log in to Aora
           </Text>
 
-          <Text className="mt-10 text-xl font-bold text-center text-white">
+          <Text className="mt-10 font-bold text-center text-white">
             {`${date.getFullYear()} / ${
               date.getMonth() + 1
             } / ${date.getDate()}`}
@@ -124,7 +124,7 @@ const SignIn = (props) => {
           </Pressable>
           <CustomButton title="Next" />
 
-          <Link href="/home" className="text-lg font-psemibold text-secondary">
+          <Link href="/home" className=" font-psemibold text-secondary">
             Home
           </Link>
         </View>
