@@ -3,7 +3,7 @@ import React from "react";
 import mergeNames from "../utils/mergeNames";
 
 const CustomButton = ({
-  title,
+  title = "Цааш",
   onPress,
   containerStyle,
   textStyles,
@@ -21,10 +21,7 @@ const CustomButton = ({
       disabled={isLoading}
     >
       <Text
-        className={mergeNames(
-          "text-primary font-psemibold text-lg",
-          textStyles
-        )}
+        className={mergeNames("text-light font-psemibold text-lg", textStyles)}
       >
         {title}
       </Text>

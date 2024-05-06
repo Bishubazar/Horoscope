@@ -57,6 +57,21 @@ const TabsLayout = () => {
         }}
       />
       <Tabs.Screen
+        name="compatibility"
+        options={{
+          title: "Compatibility",
+          headerShown: false,
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon
+              icon={icons.profile}
+              color={color}
+              name="Compatibility"
+              focused={focused}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="profile"
         options={{
           title: "Profile",

@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#161622",
+        primary: "#130F2C",
+        light: "#f2f2f2",
         secondary: {
-          DEFAULT: "#FF9C01",
-          100: "#FF9001",
-          200: "#FF8E01",
+          DEFAULT: "#A16BFF",
+          100: "#7249EE",
+          // 200: "#FF8E01",
         },
         black: {
           DEFAULT: "#000",
@@ -18,6 +19,15 @@ module.exports = {
         gray: {
           100: "#CDCDE0",
         },
+      },
+      fontSize: {
+        sm: "0.8rem",
+        base: "1rem",
+        xl: "1.25rem",
+        "2xl": "1.563rem",
+        "3xl": "1.953rem",
+        "4xl": "2.441rem",
+        "5xl": "3.052rem",
       },
       fontFamily: {
         pthin: ["Poppins-Thin", "sans-serif"],

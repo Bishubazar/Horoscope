@@ -27,19 +27,19 @@ export default function App() {
           />
 
           <View className="relative w-full mt-5">
-            <Text className="text-3xl font-bold text-center text-white">
-              Hello World
-              <Text className="text-secondary-200"> Logo</Text>
+            <Text className="font-bold text-center text-light ">
+              Hi. Тавтай морил
+              {/* <Text className="text-secondary-200"> Logo</Text> */}
             </Text>
-            <Text className="text-sm text-center text-gray-100 font-pregular mt-7">
+            <Text className="text-center text-gray-100  font-pregular mt-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque
               quasi temporibus possimus
             </Text>
             <CustomButton
-              title="Continue with Email"
+              title="Эхлэх"
               containerStyle="w-full mt-7"
               onPress={() => {
-                router.push("/sign-in");
+                router.push("/username");
               }}
             />
           </View>
